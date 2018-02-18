@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="com.alper.pola.andoid.phonedailer.MainActivity">
+
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="call"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button10"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="playback"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button10"
+        android:layout_below="@+id/button4" />
+
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="delete"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/button15"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button11"
+        android:layout_toStartOf="@+id/button1"
+        android:layout_alignTop="@+id/button1"
+        android:layout_alignRight="@+id/button11"
+        android:layout_alignEnd="@+id/button11"
+        android:layout_toLeftOf="@+id/button1" />
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/button0"
+        android:layout_above="@+id/button10"
+        android:layout_alignTop="@+id/buttonastrike"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8"
+        android:layout_alignRight="@+id/button5"
+        android:layout_alignEnd="@+id/button5" />
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="#"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/buttonhash"
+        android:layout_below="@+id/button9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/button0"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9"
+        android:layout_toRightOf="@+id/button0"
+        android:layout_above="@+id/button10" />
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="9"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/button9"
+        android:layout_alignTop="@+id/button8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/button0"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6"
+        android:layout_toRightOf="@+id/button0" />
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="6"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/button6"
+
+        android:layout_above="@+id/button9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/button8"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_toRightOf="@+id/button8" />
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="3"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:id="@+id/button3"
+
+        android:elevation="0dp"
+        android:layout_above="@+id/button6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="5"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:id="@+id/button5"
+
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:layout_alignRight="@+id/button2"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_below="@+id/button3" />
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="2"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:id="@+id/button2"
+
+        android:layout_above="@+id/button5"
+        android:layout_toLeftOf="@+id/button3"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp" />
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/button1"
+
+        android:layout_above="@+id/button5"
+        android:layout_toStartOf="@+id/button5"
+        android:layout_toLeftOf="@+id/button5" />
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="*"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/buttonastrike"
+        android:layout_above="@+id/button10"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4" />
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="7"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/button7"
+        android:layout_above="@+id/buttonastrike"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_alignTop="@+id/button8" />
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="4"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/button4"
+        android:layout_above="@+id/button7"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:layout_below="@+id/button2" />
+
+    <com.alper.pola.andoid.phonedailer.MyButton
+        android:text="8"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:id="@+id/button8"
+        android:layout_above="@+id/button0"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_alignRight="@+id/button5"
+        android:layout_alignEnd="@+id/button5" />
+
+    <EditText
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:id="@+id/editText"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+
+        android:layout_toRightOf="@+id/button15"
+        android:layout_toLeftOf="@+id/button1"
+        android:layout_toStartOf="@+id/button1" />
+</RelativeLayout>
