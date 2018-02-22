@@ -1,16 +1,14 @@
 package com.alper.pola.andoid.phonedailer;
 
 import android.content.Context;
-import android.media.MediaPlayer;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.widget.Button;
 
 /**
  * Created by pola alper on 25-Dec-16.
  */
 
-public class MyButton extends Button {
+public class MyButton extends android.support.v7.widget.AppCompatButton {
 
     public MyButton(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
@@ -32,6 +30,10 @@ public class MyButton extends Button {
         // TODO Auto-generated method stub
         // return super.onTouchEvent(event);
         return false;
+    }
+    @Override
+    public boolean performClick() {
+        return true;
     }
 
 

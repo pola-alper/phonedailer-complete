@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\shashank\Downloads\StaurtApp\phonedailer-complete\app\app.iml" filepath="C:\Users\shashank\Downloads\StaurtApp\phonedailer-complete\app\app.iml" />
       <module fileurl="file://E:\all my projects\phonedailer-complete\phonedailer.iml" filepath="E:\all my projects\phonedailer-complete\phonedailer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/phonedailer-complete.iml" filepath="$PROJECT_DIR$/phonedailer-complete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/phonedailer-complete.iml" filepath="$PROJECT_DIR$/.idea/phonedailer-complete.iml" />
+      <module fileurl="file://C:\Users\shashank\Downloads\StaurtApp\phonedailer-complete\phonedailer-complete.iml" filepath="C:\Users\shashank\Downloads\StaurtApp\phonedailer-complete\phonedailer-complete.iml" />
     </modules>
   </component>
 </project>
